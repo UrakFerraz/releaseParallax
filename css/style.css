@@ -233,9 +233,14 @@ body, html {
 	top: 0;
 	left: 0;
 	z-index: 800;
+	grid-template-columns: auto 1fr auto;
+	align-items: center;
 }
 
-
+.headerMenu {
+	grid-column: -2 / -1;
+	cursor: pointer;
+}
 
 
 
@@ -865,7 +870,30 @@ amp-img.section3Img img {
 
 
 
+.backToTopBtn {
+	position: fixed;
+	bottom: 27px;
+	right: 27px;
+	overflow: hidden;
+	background-color: var(--primaryColor);
+	padding: 6px;
+	width: 30px;
+	height: 30px;
+	transition: 0.4s ease all;
+	cursor: pointer;
+	z-index: 500;
+}
 
+.backToTopBtnOverflow {
+	flex-direction: column;
+	height: 70px;
+	justify-content: space-between;
+	transition: 0.4s ease all;
+}
+
+.backToTopBtn:hover .backToTopBtnOverflow {
+	transform: translateY(-50px);
+}
 
 
 
@@ -950,3 +978,133 @@ amp-img.section3Img img {
 	height: auto;
 	padding: 90px 0;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.footer {
+	background-color: var(--darkGrayColor);
+	grid-template-columns: 1fr auto;
+	padding: 20px;
+	z-index: 20;
+}
+
+.footerTrademark {
+	grid-template-columns: 100px 1fr;
+	align-items: center;
+	grid-gap: 20px;
+	grid-column: 1 / -1;
+	margin-top: 30px;
+	padding-top: 30px;
+	border-top: 1px solid var(--mediumGrayColor);
+}
+.footerTrademark {
+	font-weight: 600;
+	color: var(--primaryColor);
+}
+
+.footerTrademark p {
+	font-size: 12px;
+	color: #fff;
+}
+
+.socialWrapper {
+	grid-auto-flow: column;
+	grid-gap: 10px;
+	align-items: center;
+	justify-content: center;
+	align-self: start;
+	grid-column: -1 / -2;
+}
+
+.socialWrapper h3 {
+	grid-column: 1 / 6;
+	grid-row: 1;
+}
+
+.socialWrapper a svg {
+	fill: var(--primaryColor);
+}
+
+.socialWrapper a {
+	padding: 10px;
+	grid-row: 2;
+}
+
+.socialWrapper a:hover {
+	background-color: var(--mediumGrayColor);
+}
+
+.footerColumns {
+	grid-template-columns: repeat(4, 1fr);
+}
+
+.footerColumnUnit {
+	flex-direction: column;
+	align-self: start;
+}
+
+.footerColumnUnit h3,
+.socialWrapper h3 {
+	color: var(--primaryColor);
+	font-weight: var(--lightRoboto);
+	margin-bottom: 20px;
+	font-size: 18px;
+}
+
+.footerColumnUnit a {
+	font-weight: var(--lightRoboto);
+	color: #fff;
+	margin: 5px 0;
+	font-size: 16px;
+}
+
+.footerColumnUnit a:hover {
+	color: var(--primaryColor);
+}
+
+
+
