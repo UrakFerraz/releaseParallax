@@ -1,0 +1,370 @@
+@media (min-width: 901px) and (max-width: 1600px) {
+	.heroSectionSob,
+	.preFixedBG {
+		height: auto;
+		padding: 120px 0;
+	}
+
+	.sobTextsWrapper,
+	.quotation,
+	.textSection p {
+		max-width: 700px;
+	}
+
+	#section3 {
+		height: 110vh;
+	}
+
+	#section2,
+	.textSection {
+		height: 110vh;
+	}
+
+	.heightAuto {
+		height: auto;
+	}
+
+	p {
+		font-size: 16px
+	}
+
+	.leftSideText {
+		align-self: center;
+		margin: 90px 0;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 501px) and (max-width: 900px) {
+	.heroSectionSob,
+	.preFixedBG {
+		height: auto;
+		padding: 120px 0;
+	}
+
+	.heroTitle {
+		font-size: 40px;
+	}
+
+	.heroLead {
+		font-size: 18px;
+	}
+
+	.sobTextsWrapper,
+	.quotation,
+	.textSection p {
+		max-width: 700px;
+		width: 75%;
+	}
+
+	.quotation p {
+		width: 100%;
+	}
+
+	.imgFullParallax {
+		opacity: 0;
+		visibility: hidden;
+	}
+
+	.imgFullTwo {
+		background-size: cover;
+	}
+
+	#section3 {
+		display: flex;
+		flex-direction: column;
+	}
+
+	#section3,
+	.textSection {
+		height: auto;
+	}
+
+	.imgFullThree,
+	.imgFullFive,
+	.imgFullSix {
+		height: 60vh;
+	}
+
+	.imgFullSix {
+		background-position: bottom right;
+		height: 40vh;
+	}
+
+	.rightSideImgTwoToFixed {
+		opacity: 0;
+		visibility: hidden;
+	}
+
+	.textSection {
+		padding: 80px 0;
+	}
+
+	#section2 {
+		height: auto;
+		grid-template-columns: 1fr;
+	}
+
+	.leftSideText,
+	.rightSideImgSpace,
+	.rightSideImgToFixed {
+		grid-column: 1 / -1;
+	}
+
+	.leftSideText {
+		grid-row: 1;
+	}
+
+	.rightSideImgToFixed {
+		grid-row: 2;
+	}
+
+	.leftSideText p {
+		width: 75%;
+		margin: 0 auto;
+	}
+
+	p {
+		font-size: 16px
+	}
+
+	.leftSideText {
+		align-self: center;
+		margin: 90px 0;
+	}
+
+	amp-social-share {
+		width: 40px !important;
+		height: 40px !important;
+	}
+
+	.socialShareWrapper {
+		transform: translateX(-80px);
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 320px) and (max-width: 500px) {
+	.heroSectionSob,
+	.preFixedBG {
+		height: auto;
+		padding: 120px 0;
+	}
+
+amp-fx-flying-carpet {
+	display: block;
+}
+
+	.heroSectionSob {
+		backface-visibility: hidden;
+	background-image: linear-gradient(
+    to bottom,
+    rgba(0,0,0,.5),
+    rgba(0,0,0,.5)
+  );
+  	background-size: 400%;	
+	}
+
+	.heroSection {
+		background-attachment: inherit;
+		backface-visibility: hidden;
+		max-height: 900px;
+	}
+
+	.heroTextsWrapper {
+		margin-bottom: 80px;
+	}
+
+	.heroTitle {
+		font-size: 25px;
+	}
+
+	.heroLead {
+		font-size: 16px;
+		line-height: 1.4;
+	}
+
+	.sobTextsWrapper,
+	.quotation,
+	.textSection p {
+		max-width: 700px;
+		width: 75%;
+		line-height: 1.5;
+	}
+
+	.quotation,
+	.textSection p {
+		max-width: 700px;
+		width: 75%;
+		line-height: 1.5;
+		transform: translateX(20px);
+	}
+
+	.sobTextsWrapper {
+		padding: 20px;
+		background-color: rgba(0,0,0,.7);
+	}
+
+	.quotation {
+		grid-gap: 10px;
+	}
+
+	.quotation p {
+		width: 100%;
+	}
+
+	.imgFullParallaxContainer amp-fx-flying-carpet amp-img {
+		/*height: 500px;*/
+	}
+
+	.imgFullParallax {
+		opacity: 0;
+		visibility: hidden;
+	}
+
+	.imgFullTwo {
+		background-size: cover;
+	}
+
+	#section3 {
+		display: flex;
+		flex-direction: column;
+	}
+
+	#section3,
+	.textSection {
+		height: auto;
+	}
+
+	.imgFull,
+	.imgFullThree,
+	.imgFullFive,
+	.imgFullSix {
+		height: 60vh;
+		max-height: 300px;
+	}
+
+	.imgFullSix {
+		background-position: bottom right;
+		height: 40vh;
+	}
+
+	.rightSideImgTwoToFixed {
+		opacity: 0;
+		visibility: hidden;
+	}
+
+	.textSection {
+		padding: 80px 0;
+	}
+
+	#section2 {
+		height: auto;
+		grid-template-columns: 1fr;
+	}
+
+	.leftSideText,
+	.rightSideImgSpace,
+	.rightSideImgToFixed {
+		grid-column: 1 / -1;
+	}
+
+	.leftSideText {
+		grid-row: 1;
+	}
+
+	.rightSideImgToFixed {
+		grid-row: 2;
+	}
+
+	.leftSideText p {
+		width: 75%;
+		margin: auto;
+		transform: translateX(20px);
+	}
+
+	p {
+		font-size: 14px
+	}
+
+	.leftSideText {
+		align-self: center;
+		margin: 90px 0;
+	}
+
+	amp-social-share {
+		width: 40px !important;
+		height: 40px !important;
+	}
+
+	.socialShareWrapper {
+		transform: translateX(-80px);
+	}
+}
