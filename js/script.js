@@ -5,6 +5,7 @@ var socialShareWrapper = document.querySelector('.socialShareWrapper');
 var rightSideImgToFixed = document.querySelector('.rightSideImgToFixed');
 var rightSideImgTwoToFixed = document.querySelector('.rightSideImgTwoToFixed');
 var imgFullParallax = document.querySelector('.imgFullParallax');
+let backToTopBtn = document.querySelector('#backToTopBtn');
 
 // função que encontra a posição do topo dos elementos que serão animados
 function findTop(element) {
@@ -30,6 +31,7 @@ let z = 0;
 let y = 0;
 eixoZ = 20;
 let checkScrollPos = 0;
+backToTopBtn.style.bottom = '-100px';
 
 
 
@@ -88,8 +90,10 @@ window.addEventListener('scroll', function() {
 
 	if(y > checkScrollPos) {
 		header.style.top = '-100px';
+		backToTopBtn.style.bottom = '-100px';
 	} else {
 		header.style.top = '0px';
+		backToTopBtn.style.bottom = '20px';
 	};
 
 
